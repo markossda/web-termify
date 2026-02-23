@@ -225,6 +225,7 @@
                 <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
             </button>
         </nav>
+        <div class="mobile-overlay" id="mobile-overlay" onclick="closeMobileMenu()"></div>
         <div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
             <a href="/#industries" onclick="closeMobileMenu()">Industries</a>
             <a href="/#features" onclick="closeMobileMenu()">Features</a>
@@ -994,14 +995,17 @@
         var closeSVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>';
         window.toggleMobileMenu = function() {
             var menu = document.getElementById('mobile-menu');
+            var overlay = document.getElementById('mobile-overlay');
             var btn = document.querySelector('.mobile-toggle');
             var isOpen = menu.classList.toggle('open');
+            overlay.classList.toggle('open', isOpen);
             btn.setAttribute('aria-expanded', isOpen);
             btn.innerHTML = isOpen ? closeSVG : hamburgerSVG;
             document.body.style.overflow = isOpen ? 'hidden' : '';
         };
         window.closeMobileMenu = function() {
             document.getElementById('mobile-menu').classList.remove('open');
+            document.getElementById('mobile-overlay').classList.remove('open');
             var btn = document.querySelector('.mobile-toggle');
             btn.setAttribute('aria-expanded', 'false');
             btn.innerHTML = hamburgerSVG;
