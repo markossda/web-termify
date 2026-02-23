@@ -1,0 +1,200 @@
+# Termify - robots.txt
+# Allow all crawlers including AI engines and generative search bots
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# --- OpenAI Crawlers ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT Agent
+Allow: /
+
+User-agent: Operator
+Allow: /
+
+# --- Anthropic Crawlers ---
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# --- Google AI Crawlers ---
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
+User-agent: CloudVertexBot
+Allow: /
+
+User-agent: Google-NotebookLM
+Allow: /
+
+User-agent: NotebookLM
+Allow: /
+
+User-agent: Gemini-Deep-Research
+Allow: /
+
+User-agent: GoogleAgent-Mariner
+Allow: /
+
+User-agent: Google-Firebase
+Allow: /
+
+# --- Microsoft/Bing Crawlers ---
+User-agent: Bingbot
+Allow: /
+
+User-agent: AzureAI-SearchBot
+Allow: /
+
+User-agent: bedrockbot
+Allow: /
+
+# --- Perplexity Crawlers ---
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# --- Apple Crawlers ---
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# --- Meta Crawlers ---
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# --- Amazon Crawlers ---
+User-agent: Amazonbot
+Allow: /
+
+User-agent: AmazonBuyForMe
+Allow: /
+
+User-agent: Amzn-SearchBot
+Allow: /
+
+# --- Cohere Crawlers ---
+User-agent: cohere-ai
+Allow: /
+
+User-agent: cohere-training-data-crawler
+Allow: /
+
+# --- Mistral AI Crawlers ---
+User-agent: MistralAI-User
+Allow: /
+
+# --- DeepSeek Crawlers ---
+User-agent: DeepSeekBot
+Allow: /
+
+# --- Other AI Search Engines ---
+User-agent: YouBot
+Allow: /
+
+User-agent: Bravebot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: PhindBot
+Allow: /
+
+User-agent: iAskBot
+Allow: /
+
+User-agent: iaskspider
+Allow: /
+
+User-agent: KunatoCrawler
+Allow: /
+
+User-agent: LinerBot
+Allow: /
+
+# --- AI Data & Research Crawlers ---
+User-agent: CCBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: ImagesiftBot
+Allow: /
+
+User-agent: Timpibot
+Allow: /
+
+User-agent: PetalBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: TavilyBot
+Allow: /
+
+User-agent: Crawl4AI
+Allow: /
+
+User-agent: FirecrawlAgent
+Allow: /
+
+User-agent: WRTNBot
+Allow: /
+
+User-agent: Andibot
+Allow: /
+
+User-agent: LinkupBot
+Allow: /
+
+# AI-readable content files
+# See https://protermify.com/llms.txt for structured AI navigation
+# See https://protermify.com/llms-full.txt for comprehensive AI content
+
+Sitemap: https://protermify.com/sitemap.xml

@@ -1,0 +1,14 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "TEAMID.com.bipboo.termify",
+                "paths": ["*"]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": ["TEAMID.com.bipboo.termify"]
+    }
+}

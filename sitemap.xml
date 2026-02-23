@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- Home Page (English - Default) -->
+    <url>
+        <loc>https://protermify.com/</loc>
+        <lastmod>2026-02-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://protermify.com/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://protermify.com/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://protermify.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://protermify.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://protermify.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://protermify.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://protermify.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://protermify.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://protermify.com/pt-br/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://protermify.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://protermify.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://protermify.com/hi/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://protermify.com/ja/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://protermify.com/ko/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://protermify.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://protermify.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://protermify.com/id/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://protermify.com/nl/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://protermify.com/pl/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://protermify.com/sv/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://protermify.com/da/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://protermify.com/fi/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://protermify.com/no/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://protermify.com/cs/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://protermify.com/ro/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://protermify.com/el/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://protermify.com/hu/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://protermify.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://protermify.com/vi/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://protermify.com/ms/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://protermify.com/he/"/>
+    </url>
+
+    <!-- Aviation English Landing Page -->
+    <url>
+        <loc>https://protermify.com/pages/aviation-english.html</loc>
+        <lastmod>2026-02-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Maritime English Landing Page -->
+    <url>
+        <loc>https://protermify.com/pages/maritime-english.html</loc>
+        <lastmod>2026-02-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Logistics English Landing Page -->
+    <url>
+        <loc>https://protermify.com/pages/logistics-english.html</loc>
+        <lastmod>2026-02-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Finance English Landing Page -->
+    <url>
+        <loc>https://protermify.com/pages/finance-english.html</loc>
+        <lastmod>2026-02-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Cybersecurity English Landing Page -->
+    <url>
+        <loc>https://protermify.com/pages/cybersecurity-english.html</loc>
+        <lastmod>2026-02-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- IT/DevOps English Landing Page -->
+    <url>
+        <loc>https://protermify.com/pages/it-devops-english.html</loc>
+        <lastmod>2026-02-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Comparison Page: Termify vs PeakTalk vs Duolingo vs Babbel -->
+    <url>
+        <loc>https://protermify.com/pages/compare.html</loc>
+        <lastmod>2026-02-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Privacy Policy -->
+    <url>
+        <loc>https://protermify.com/pages/legal/privacy.html</loc>
+        <lastmod>2026-02-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <!-- Terms of Use -->
+    <url>
+        <loc>https://protermify.com/pages/legal/terms.html</loc>
+        <lastmod>2026-02-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <!-- LLMs.txt (AI-readable navigation) -->
+    <url>
+        <loc>https://protermify.com/llms.txt</loc>
+        <lastmod>2026-02-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- LLMs-full.txt (Comprehensive AI-readable content) -->
+    <url>
+        <loc>https://protermify.com/llms-full.txt</loc>
+        <lastmod>2026-02-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+</urlset>

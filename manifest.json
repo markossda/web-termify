@@ -1,0 +1,28 @@
+{
+    "name": "Termify - 100% Free Professional English",
+    "short_name": "Termify",
+    "description": "100% free professional English terminology app for Aviation, Maritime, Logistics, Finance, Cybersecurity and IT/DevOps. 4,230+ terms with native pronunciation, IPA transcriptions and career quizzes.",
+    "lang": "en",
+    "start_url": "/",
+    "scope": "/",
+    "display": "browser",
+    "background_color": "#09090b",
+    "theme_color": "#6d5cff",
+    "categories": ["education", "productivity"],
+    "icons": [
+        {
+            "src": "/images/termify_logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "prefer_related_applications": true,
+    "related_applications": [
+        {
+            "platform": "itunes",
+            "url": "https://apps.apple.com/app/professional-english-termify/id6744872522",
+            "id": "6744872522"
+        }
+    ]
+}
