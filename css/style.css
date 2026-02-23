@@ -2184,6 +2184,13 @@ strong {
   top: -80px;
 }
 
+.page-last-updated {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
 /* --- Content Block (Landing Pages) --- */
 .content-block {
   max-width: 800px;

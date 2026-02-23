@@ -38,6 +38,10 @@
     <!-- Apple Smart App Banner -->
     <meta name="apple-itunes-app" content="app-id=6744872522, app-argument=https://protermify.com/pages/it-devops-english.html">
 
+    <!-- Hreflang Tags -->
+    <link rel="alternate" hreflang="en" href="https://protermify.com/pages/it-devops-english.html">
+    <link rel="alternate" hreflang="x-default" href="https://protermify.com/pages/it-devops-english.html">
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/images/termify_logo.png">
     <link rel="apple-touch-icon" href="/images/termify_logo.png">
@@ -62,9 +66,10 @@
         "@graph": [
             {
                 "@type": "Organization",
-                "@id": "https://protermify.com/#organization",
+                "@id": "https://protermify.com/#org",
                 "name": "BipBoo Corporation",
-                "url": "https://protermify.com",
+                "url": "https://protermify.com/",
+                "email": "support@protermify.com",
                 "logo": {
                     "@type": "ImageObject",
                     "@id": "https://protermify.com/#logo",
@@ -78,11 +83,24 @@
                 ]
             },
             {
+                "@type": "SoftwareApplication",
+                "@id": "https://protermify.com/#app",
+                "name": "Professional English: Termify",
+                "applicationCategory": "EducationApplication",
+                "operatingSystem": "iOS",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD"
+                },
+                "downloadUrl": "https://apps.apple.com/app/professional-english-termify/id6744872522"
+            },
+            {
                 "@type": "WebSite",
                 "@id": "https://protermify.com/#website",
                 "url": "https://protermify.com/",
                 "name": "Termify",
-                "publisher": { "@id": "https://protermify.com/#organization" }
+                "publisher": { "@id": "https://protermify.com/#org" }
             },
             {
                 "@type": "WebPage",
@@ -94,6 +112,7 @@
                 "dateModified": "2026-02-23",
                 "inLanguage": "en",
                 "isPartOf": { "@id": "https://protermify.com/#website" },
+                "about": { "@id": "https://protermify.com/#app" },
                 "breadcrumb": { "@id": "https://protermify.com/pages/it-devops-english.html#breadcrumb" },
                 "primaryImageOfPage": {
                     "@type": "ImageObject",
@@ -245,6 +264,9 @@
                 <li aria-current="page" style="color: var(--color-primary);">IT/DevOps English</li>
             </ol>
         </nav>
+        <div class="container">
+            <p class="page-last-updated">Last updated: <time datetime="2026-02-23">February 23, 2026</time></p>
+        </div>
 
         <!-- ========== HERO ========== -->
         <section class="hero" aria-labelledby="hero-heading">

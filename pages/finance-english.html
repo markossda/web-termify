@@ -20,8 +20,8 @@
     <meta property="og:title" content="Finance English - Free CFA, Banking & Financial Terms | Termify">
     <meta property="og:description" content="Master finance English free with Termify. CFA vocabulary, banking terminology, IFRS/GAAP reporting, derivatives, M&A language. Prepare for CFA, ACCA and FRM exams. 100% free.">
     <meta property="og:image" content="https://protermify.com/images/finance.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="400">
     <meta property="og:image:alt" content="Finance English - Free CFA, Banking and Financial Terminology Learning App by Termify">
     <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="Termify">
@@ -66,9 +66,10 @@
         "@graph": [
             {
                 "@type": "Organization",
-                "@id": "https://protermify.com/#organization",
+                "@id": "https://protermify.com/#org",
                 "name": "BipBoo Corporation",
-                "url": "https://protermify.com",
+                "url": "https://protermify.com/",
+                "email": "support@protermify.com",
                 "logo": {
                     "@type": "ImageObject",
                     "@id": "https://protermify.com/#logo",
@@ -82,12 +83,25 @@
                 ]
             },
             {
+                "@type": "SoftwareApplication",
+                "@id": "https://protermify.com/#app",
+                "name": "Professional English: Termify",
+                "applicationCategory": "EducationApplication",
+                "operatingSystem": "iOS",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD"
+                },
+                "downloadUrl": "https://apps.apple.com/app/professional-english-termify/id6744872522"
+            },
+            {
                 "@type": "WebSite",
                 "@id": "https://protermify.com/#website",
                 "url": "https://protermify.com/",
                 "name": "Termify",
                 "description": "100% free professional English learning app for Aviation, Maritime, Logistics, Finance, Cybersecurity and IT/DevOps",
-                "publisher": { "@id": "https://protermify.com/#organization" }
+                "publisher": { "@id": "https://protermify.com/#org" }
             },
             {
                 "@type": "WebPage",
@@ -248,6 +262,9 @@
                 </ol>
             </div>
         </nav>
+        <div class="container">
+            <p class="page-last-updated">Last updated: <time datetime="2026-02-23">February 23, 2026</time></p>
+        </div>
 
         <!-- ========== HERO SECTION ========== -->
         <section class="hero" id="hero" aria-labelledby="main-heading">

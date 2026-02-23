@@ -66,9 +66,10 @@
         "@graph": [
             {
                 "@type": "Organization",
-                "@id": "https://protermify.com/#organization",
+                "@id": "https://protermify.com/#org",
                 "name": "BipBoo Corporation",
-                "url": "https://protermify.com",
+                "url": "https://protermify.com/",
+                "email": "support@protermify.com",
                 "logo": {
                     "@type": "ImageObject",
                     "@id": "https://protermify.com/#logo",
@@ -81,11 +82,24 @@
                 ]
             },
             {
+                "@type": "SoftwareApplication",
+                "@id": "https://protermify.com/#app",
+                "name": "Professional English: Termify",
+                "applicationCategory": "EducationApplication",
+                "operatingSystem": "iOS",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD"
+                },
+                "downloadUrl": "https://apps.apple.com/app/professional-english-termify/id6744872522"
+            },
+            {
                 "@type": "WebSite",
                 "@id": "https://protermify.com/#website",
                 "url": "https://protermify.com/",
                 "name": "Termify",
-                "publisher": { "@id": "https://protermify.com/#organization" },
+                "publisher": { "@id": "https://protermify.com/#org" },
                 "inLanguage": "en"
             },
             {
@@ -252,6 +266,9 @@
                 </ol>
             </div>
         </nav>
+        <div class="container">
+            <p class="page-last-updated">Last updated: <time datetime="2026-02-23">February 23, 2026</time></p>
+        </div>
 
         <!-- ========== HERO SECTION ========== -->
         <section class="hero" id="hero" aria-labelledby="main-heading">

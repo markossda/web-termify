@@ -20,8 +20,8 @@
     <meta property="og:title" content="Maritime English - Free IMO SMCP &amp; Seafarer Communication | Termify">
     <meta property="og:description" content="Master maritime English free with Termify. Learn IMO Standard Marine Communication Phrases, bridge commands, navigation terms. Prepare for Marlins Test, STCW and ISF Watchkeeper exams.">
     <meta property="og:image" content="https://protermify.com/images/maritime.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="400">
     <meta property="og:image:alt" content="Maritime English Training - IMO SMCP bridge communication and navigation terminology with Termify free app">
     <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="Termify">
@@ -37,6 +37,10 @@
 
     <!-- Apple Smart App Banner -->
     <meta name="apple-itunes-app" content="app-id=6744872522, app-argument=https://protermify.com/pages/maritime-english.html">
+
+    <!-- Hreflang Tags -->
+    <link rel="alternate" hreflang="en" href="https://protermify.com/pages/maritime-english.html">
+    <link rel="alternate" hreflang="x-default" href="https://protermify.com/pages/maritime-english.html">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/images/termify_logo.png">
@@ -471,9 +475,10 @@
         "@graph": [
             {
                 "@type": "Organization",
-                "@id": "https://protermify.com/#organization",
+                "@id": "https://protermify.com/#org",
                 "name": "BipBoo Corporation",
-                "url": "https://protermify.com",
+                "url": "https://protermify.com/",
+                "email": "support@protermify.com",
                 "logo": {
                     "@type": "ImageObject",
                     "@id": "https://protermify.com/#logo",
@@ -487,11 +492,24 @@
                 ]
             },
             {
+                "@type": "SoftwareApplication",
+                "@id": "https://protermify.com/#app",
+                "name": "Professional English: Termify",
+                "applicationCategory": "EducationApplication",
+                "operatingSystem": "iOS",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD"
+                },
+                "downloadUrl": "https://apps.apple.com/app/professional-english-termify/id6744872522"
+            },
+            {
                 "@type": "WebSite",
                 "@id": "https://protermify.com/#website",
                 "url": "https://protermify.com/",
                 "name": "Termify",
-                "publisher": { "@id": "https://protermify.com/#organization" },
+                "publisher": { "@id": "https://protermify.com/#org" },
                 "inLanguage": "en"
             },
             {
@@ -652,6 +670,7 @@
                 <span class="breadcrumb-separator" aria-hidden="true">/</span>
                 <span class="breadcrumb-current" aria-current="page">Maritime English</span>
             </nav>
+            <p class="page-last-updated">Last updated: <time datetime="2026-02-23">February 23, 2026</time></p>
         </div>
 
         <!-- Hero Section -->

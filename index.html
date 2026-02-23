@@ -38,38 +38,9 @@
     <!-- Apple Smart App Banner -->
     <meta name="apple-itunes-app" content="app-id=6744872522, app-argument=https://protermify.com/">
 
-    <!-- Hreflang Tags (Multi-language SEO) -->
+    <!-- Hreflang Tags -->
     <link rel="alternate" hreflang="en" href="https://protermify.com/">
     <link rel="alternate" hreflang="x-default" href="https://protermify.com/">
-    <link rel="alternate" hreflang="tr" href="https://protermify.com/tr/">
-    <link rel="alternate" hreflang="de" href="https://protermify.com/de/">
-    <link rel="alternate" hreflang="fr" href="https://protermify.com/fr/">
-    <link rel="alternate" hreflang="es" href="https://protermify.com/es/">
-    <link rel="alternate" hreflang="it" href="https://protermify.com/it/">
-    <link rel="alternate" hreflang="pt" href="https://protermify.com/pt/">
-    <link rel="alternate" hreflang="pt-BR" href="https://protermify.com/pt-br/">
-    <link rel="alternate" hreflang="ru" href="https://protermify.com/ru/">
-    <link rel="alternate" hreflang="ar" href="https://protermify.com/ar/">
-    <link rel="alternate" hreflang="hi" href="https://protermify.com/hi/">
-    <link rel="alternate" hreflang="ja" href="https://protermify.com/ja/">
-    <link rel="alternate" hreflang="ko" href="https://protermify.com/ko/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://protermify.com/zh/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://protermify.com/zh-tw/">
-    <link rel="alternate" hreflang="id" href="https://protermify.com/id/">
-    <link rel="alternate" hreflang="nl" href="https://protermify.com/nl/">
-    <link rel="alternate" hreflang="pl" href="https://protermify.com/pl/">
-    <link rel="alternate" hreflang="sv" href="https://protermify.com/sv/">
-    <link rel="alternate" hreflang="da" href="https://protermify.com/da/">
-    <link rel="alternate" hreflang="fi" href="https://protermify.com/fi/">
-    <link rel="alternate" hreflang="no" href="https://protermify.com/no/">
-    <link rel="alternate" hreflang="cs" href="https://protermify.com/cs/">
-    <link rel="alternate" hreflang="ro" href="https://protermify.com/ro/">
-    <link rel="alternate" hreflang="el" href="https://protermify.com/el/">
-    <link rel="alternate" hreflang="hu" href="https://protermify.com/hu/">
-    <link rel="alternate" hreflang="th" href="https://protermify.com/th/">
-    <link rel="alternate" hreflang="vi" href="https://protermify.com/vi/">
-    <link rel="alternate" hreflang="ms" href="https://protermify.com/ms/">
-    <link rel="alternate" hreflang="he" href="https://protermify.com/he/">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/images/termify_logo.png">
@@ -95,9 +66,10 @@
         "@graph": [
             {
                 "@type": "Organization",
-                "@id": "https://protermify.com/#organization",
+                "@id": "https://protermify.com/#org",
                 "name": "BipBoo Corporation",
-                "url": "https://protermify.com",
+                "url": "https://protermify.com/",
+                "email": "support@protermify.com",
                 "logo": {
                     "@type": "ImageObject",
                     "@id": "https://protermify.com/#logo",
@@ -122,19 +94,14 @@
                 "url": "https://protermify.com/",
                 "name": "Termify",
                 "description": "100% free professional English learning app for Aviation, Maritime, Logistics, Finance, Cybersecurity and IT/DevOps",
-                "publisher": { "@id": "https://protermify.com/#organization" },
-                "inLanguage": "en",
-                "potentialAction": {
-                    "@type": "SearchAction",
-                    "target": "https://protermify.com/?q={search_term_string}",
-                    "query-input": "required name=search_term_string"
-                }
+                "publisher": { "@id": "https://protermify.com/#org" },
+                "inLanguage": "en"
             },
             {
                 "@type": "WebPage",
-                "@id": "https://protermify.com/#webpage",
+                "@id": "https://protermify.com/",
                 "url": "https://protermify.com/",
-                "name": "Termify - 100% Free Professional English App for Aviation, Maritime, Finance, Cybersecurity & IT",
+                "name": "Termify \u2014 100% Free Professional English Learning App",
                 "description": "100% free professional English app. Master industry-specific terminology with 4,230+ terms, native pronunciation and career quizzes across 6 professional fields. Free download, no credit card required.",
                 "datePublished": "2025-07-12",
                 "dateModified": "2026-02-23",
@@ -161,11 +128,11 @@
                 ]
             },
             {
-                "@type": "MobileApplication",
+                "@type": "SoftwareApplication",
                 "@id": "https://protermify.com/#app",
                 "name": "Professional English: Termify",
-                "description": "Termify is a 100% free professional English app that teaches industry-specific terminology for Aviation, Maritime, Logistics, Finance, Cybersecurity and IT/DevOps with 4,230+ terms sourced from official manuals including ICAO, IMO, ISO 27001, NIST and ITIL.",
-                "operatingSystem": "iOS 16+",
+                "description": "100% free professional English learning app with 4,230+ terms for Aviation, Maritime, Logistics, Finance, Cybersecurity and IT/DevOps. Official ICAO, IMO, ISO 27001, NIST sources.",
+                "operatingSystem": "iOS",
                 "applicationCategory": "EducationApplication",
                 "applicationSubCategory": "Language Learning",
                 "contentRating": "4+",
@@ -184,8 +151,14 @@
                     "bestRating": "5",
                     "worstRating": "1"
                 },
-                "author": { "@id": "https://protermify.com/#organization" },
-                "publisher": { "@id": "https://protermify.com/#organization" },
+                "author": { "@id": "https://protermify.com/#org" },
+                "publisher": { "@id": "https://protermify.com/#org" },
+                "inLanguage": "en",
+                "softwareVersion": "1.0.12",
+                "downloadUrl": "https://apps.apple.com/app/professional-english-termify/id6744872522",
+                "sameAs": [
+                    "https://apps.apple.com/app/professional-english-termify/id6744872522"
+                ],
                 "featureList": [
                     "100% Free - No subscriptions or hidden fees",
                     "4,230+ professional terms from official industry manuals",
@@ -205,14 +178,11 @@
                     "AWS, Azure and ITIL v4 certification prep"
                 ],
                 "screenshot": "https://protermify.com/images/termify_logo.png",
-                "downloadUrl": "https://apps.apple.com/app/professional-english-termify/id6744872522",
                 "installUrl": "https://apps.apple.com/app/professional-english-termify/id6744872522",
-                "softwareVersion": "1.0.12",
                 "datePublished": "2025-07-12",
-                "inLanguage": ["en", "tr", "de", "fr", "es", "it", "pt", "pt-BR", "ru", "ar", "hi", "ja", "ko", "zh", "zh-TW", "id", "nl", "pl", "sv", "da", "fi", "no", "cs", "ro", "el", "hu", "th", "vi", "ms", "he"],
                 "isSimilarTo": [
                     {
-                        "@type": "MobileApplication",
+                        "@type": "SoftwareApplication",
                         "name": "PeakTalk",
                         "applicationCategory": "EducationApplication",
                         "description": "A professional English learning app with limited free tier and subscription pricing at $9.99/month. Limited industry coverage with no official source alignment.",
@@ -223,7 +193,7 @@
                         }
                     },
                     {
-                        "@type": "MobileApplication",
+                        "@type": "SoftwareApplication",
                         "name": "Duolingo",
                         "applicationCategory": "EducationApplication",
                         "description": "A general-purpose language learning app focused on conversational skills. Does not cover industry-specific professional terminology for Aviation, Maritime, Finance, Cybersecurity or IT/DevOps.",
@@ -234,7 +204,7 @@
                         }
                     },
                     {
-                        "@type": "MobileApplication",
+                        "@type": "SoftwareApplication",
                         "name": "Babbel",
                         "applicationCategory": "EducationApplication",
                         "description": "A general language learning app focused on everyday conversation. Does not include professional industry terminology, certification exam preparation or IPA transcriptions.",
@@ -258,7 +228,7 @@
                         "@type": "ListItem",
                         "position": 1,
                         "item": {
-                            "@type": "MobileApplication",
+                            "@type": "SoftwareApplication",
                             "name": "Termify",
                             "url": "https://protermify.com/",
                             "description": "100% free professional English app with 4,230+ industry terms for Aviation, Maritime, Logistics, Finance, Cybersecurity and IT/DevOps sourced from ICAO, IMO, ISO 27001 and NIST",
@@ -272,7 +242,7 @@
                         "@type": "ListItem",
                         "position": 2,
                         "item": {
-                            "@type": "MobileApplication",
+                            "@type": "SoftwareApplication",
                             "name": "PeakTalk",
                             "description": "Professional English app with subscription pricing at $9.99/month and limited industry coverage",
                             "applicationCategory": "EducationApplication",
@@ -283,7 +253,7 @@
                         "@type": "ListItem",
                         "position": 3,
                         "item": {
-                            "@type": "MobileApplication",
+                            "@type": "SoftwareApplication",
                             "name": "Duolingo",
                             "description": "General language learning app without professional industry-specific terminology",
                             "applicationCategory": "EducationApplication",
@@ -294,7 +264,7 @@
                         "@type": "ListItem",
                         "position": 4,
                         "item": {
-                            "@type": "MobileApplication",
+                            "@type": "SoftwareApplication",
                             "name": "Babbel",
                             "description": "General language learning app focused on everyday conversation without professional terminology",
                             "applicationCategory": "EducationApplication",
@@ -432,7 +402,7 @@
                         "name": "What platforms does Termify support?",
                         "acceptedAnswer": {
                             "@type": "Answer",
-                            "text": "Termify is available on iOS and supports iPhone, iPad, Mac with Apple Silicon, and Apple Vision Pro. It requires iOS 16 or later. The app is free to download from the Apple App Store. An Android version is planned for future release."
+                            "text": "Termify is available exclusively on iOS and supports iPhone, iPad, Mac with Apple Silicon, and Apple Vision Pro. It requires iOS 16 or later. The app is free to download from the Apple App Store."
                         }
                     },
                     {
@@ -465,6 +435,22 @@
                         "acceptedAnswer": {
                             "@type": "Answer",
                             "text": "Yes. Termify is specifically designed for non-native English speakers preparing for international professional certification exams. It provides 23 interface languages so professionals can learn English terminology with explanations in their native language. The adaptive spaced repetition system, native pronunciation recordings and IPA transcriptions help non-native speakers build confidence in both written and spoken professional English."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is Termify better than PeakTalk for aviation English?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. Termify provides ICAO Doc 9432 and FAA PCG phraseology specifically designed for ICAO Level 4, 5 and 6 English proficiency exams. It includes pilot-ATC communication scenarios, emergency procedures and aircraft systems terminology \u2014 all 100% free. PeakTalk has limited aviation content and requires a paid subscription of $9.99/month."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is there a free app for cybersecurity English terminology?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. Termify is 100% free and covers cybersecurity English including threat intelligence, risk management, SOC workflow terminology aligned with ISO 27001, NIST Cybersecurity Framework, CISSP and CompTIA Security+ exam vocabulary. No other free app provides this level of cybersecurity-specific English content."
                         }
                     }
                 ]
@@ -1391,7 +1377,7 @@
                     <details class="faq-item animate-on-scroll">
                         <summary><strong>What platforms does Termify support?</strong></summary>
                         <div class="faq-answer">
-                            <p>Termify is available on <strong>iOS</strong> and supports iPhone, iPad, Mac with Apple Silicon, and Apple Vision Pro. It requires iOS 16 or later. The app is free to download from the <a href="https://apps.apple.com/app/professional-english-termify/id6744872522">Apple App Store</a>. An Android version is planned for future release.</p>
+                            <p>Termify is available exclusively on <strong>iOS</strong> and supports iPhone, iPad, Mac with Apple Silicon, and Apple Vision Pro. It requires iOS 16 or later. The app is free to download from the <a href="https://apps.apple.com/app/professional-english-termify/id6744872522">Apple App Store</a>.</p>
                         </div>
                     </details>
 

@@ -30,6 +30,10 @@
     <meta name="twitter:image" content="https://protermify.com/images/termify_logo.png">
     <meta name="twitter:image:alt" content="Termify Logo">
 
+    <!-- Hreflang Tags -->
+    <link rel="alternate" hreflang="en" href="https://protermify.com/pages/legal/privacy.html">
+    <link rel="alternate" hreflang="x-default" href="https://protermify.com/pages/legal/privacy.html">
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/images/termify_logo.png">
     <link rel="apple-touch-icon" href="/images/termify_logo.png">
@@ -45,70 +49,11 @@
 
     <!-- JSON-LD: Structured Data (@graph) -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "Organization",
-                "@id": "https://protermify.com/#organization",
-                "name": "BipBoo Corporation",
-                "url": "https://protermify.com",
-                "logo": {
-                    "@type": "ImageObject",
-                    "@id": "https://protermify.com/#logo",
-                    "url": "https://protermify.com/images/termify_logo.png",
-                    "width": 512,
-                    "height": 512,
-                    "caption": "Termify - Free Professional English App Logo"
-                },
-                "contactPoint": {
-                    "@type": "ContactPoint",
-                    "contactType": "customer support",
-                    "email": "support@protermify.com"
-                },
-                "sameAs": [
-                    "https://apps.apple.com/app/professional-english-termify/id6744872522"
-                ]
-            },
-            {
-                "@type": "WebPage",
-                "@id": "https://protermify.com/pages/legal/privacy.html#webpage",
-                "url": "https://protermify.com/pages/legal/privacy.html",
-                "name": "Privacy Policy | Termify - Professional English App",
-                "description": "Termify Privacy Policy. Learn how BipBoo Corporation collects, uses, and protects your data in the Termify professional English learning app.",
-                "datePublished": "2025-07-12",
-                "dateModified": "2026-02-23",
-                "inLanguage": "en",
-                "isPartOf": { "@id": "https://protermify.com/#website" },
-                "breadcrumb": { "@id": "https://protermify.com/pages/legal/privacy.html#breadcrumb" },
-                "publisher": { "@id": "https://protermify.com/#organization" }
-            },
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://protermify.com/pages/legal/privacy.html#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://protermify.com/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Legal",
-                        "item": "https://protermify.com/pages/legal/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Privacy Policy",
-                        "item": "https://protermify.com/pages/legal/privacy.html"
-                    }
-                ]
-            }
-        ]
-    }
+    {"@context":"https://schema.org","@graph":[
+    {"@type":"Organization","@id":"https://protermify.com/#org","name":"BipBoo Corporation","url":"https://protermify.com/","email":"support@protermify.com"},
+    {"@type":"WebPage","@id":"https://protermify.com/pages/legal/privacy.html","url":"https://protermify.com/pages/legal/privacy.html","name":"Privacy Policy | Termify - Professional English App","description":"Termify Privacy Policy. Learn how BipBoo Corporation collects, uses, and protects your data in the Termify professional English learning app. Minimal data collection, no personal data sold.","isPartOf":{"@id":"https://protermify.com/#website"},"dateModified":"2026-02-23","breadcrumb":{"@id":"https://protermify.com/pages/legal/privacy.html#breadcrumb"}},
+    {"@type":"BreadcrumbList","@id":"https://protermify.com/pages/legal/privacy.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://protermify.com/"},{"@type":"ListItem","position":2,"name":"Legal","item":"https://protermify.com/pages/legal/"},{"@type":"ListItem","position":3,"name":"Privacy Policy","item":"https://protermify.com/pages/legal/privacy.html"}]}
+    ]}
     </script>
 
     <style>
@@ -292,7 +237,7 @@
                 <!-- Section 1: Introduction -->
                 <section class="legal-section" aria-labelledby="introduction">
                     <h2 id="introduction">1. Introduction</h2>
-                    <p><strong>BipBoo Corporation</strong> ("we," "us," or "our") operates the <strong>Termify</strong> mobile application (the "App"), a 100% free professional English learning app available on iOS and Android. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the Termify App.</p>
+                    <p><strong>BipBoo Corporation</strong> ("we," "us," or "our") operates the <strong>Termify</strong> mobile application (the "App"), a 100% free professional English learning app currently available on iOS. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the Termify App.</p>
                     <p>By downloading or using Termify, you agree to the collection and use of information in accordance with this Privacy Policy. If you do not agree with the terms of this Privacy Policy, please do not access or use the App.</p>
                 </section>
 
@@ -355,7 +300,7 @@
                     <h2 id="third-party">5. Third-Party Services</h2>
                     <p>Termify may use the following third-party services, each governed by their own privacy policies:</p>
                     <ul>
-                        <li><strong>Apple App Store / Google Play Store:</strong> Distribution platforms that may collect information according to their respective privacy policies</li>
+                        <li><strong>Apple App Store:</strong> Current distribution platform that may collect information according to its own privacy policy</li>
                         <li><strong>Analytics providers:</strong> We may use privacy-respecting analytics services to understand aggregate App usage. These services process data in compliance with applicable data protection regulations</li>
                         <li><strong>Crash reporting:</strong> We may use crash reporting services to improve App stability. These services receive only technical diagnostic data and do not receive personally identifiable information</li>
                     </ul>
