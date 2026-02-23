@@ -6,10 +6,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
   exclude-result-prefixes="sitemap image xhtml">
 
-  <xsl:output method="html" encoding="UTF-8" indent="yes"/>
+  <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/>
 
   <xsl:template match="/">
-    <html lang="en">
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
       <head>
         <title>XML Sitemap — protermify.com</title>
         <meta name="robots" content="noindex, nofollow"/>
