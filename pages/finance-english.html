@@ -221,7 +221,18 @@
             <div class="nav-actions">
                 <a href="/#download" class="btn btn-primary">Download Free</a>
             </div>
+            <button class="mobile-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu" onclick="toggleMobileMenu()">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            </button>
         </nav>
+        <div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+            <a href="/#industries" onclick="closeMobileMenu()">Industries</a>
+            <a href="/#features" onclick="closeMobileMenu()">Features</a>
+            <a href="/#how-it-works" onclick="closeMobileMenu()">Exam Prep</a>
+            <a href="/#comparison" onclick="closeMobileMenu()">Compare</a>
+            <a href="/#faq" onclick="closeMobileMenu()">FAQ</a>
+            <a href="/#download" class="btn btn-primary" onclick="closeMobileMenu()">Download Free</a>
+        </div>
     </header>
 
     <main role="main" id="content">
@@ -978,6 +989,24 @@
         window.addEventListener('scroll', function() {
             header.classList.toggle('scrolled', window.scrollY > 10);
         }, {passive: true});
+
+        var hamburgerSVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+        var closeSVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>';
+        window.toggleMobileMenu = function() {
+            var menu = document.getElementById('mobile-menu');
+            var btn = document.querySelector('.mobile-toggle');
+            var isOpen = menu.classList.toggle('open');
+            btn.setAttribute('aria-expanded', isOpen);
+            btn.innerHTML = isOpen ? closeSVG : hamburgerSVG;
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+        };
+        window.closeMobileMenu = function() {
+            document.getElementById('mobile-menu').classList.remove('open');
+            var btn = document.querySelector('.mobile-toggle');
+            btn.setAttribute('aria-expanded', 'false');
+            btn.innerHTML = hamburgerSVG;
+            document.body.style.overflow = '';
+        };
     })();
     </script>
 </body>
