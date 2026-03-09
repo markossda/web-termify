@@ -2,3 +2,32 @@
 node_modules
 scripts
 .wrangler
+
+# Free-plan safe deploy: keep glossary only for EN (default) and TR.
+ar/glossary
+de/glossary
+en-gb/glossary
+es/glossary
+fr/glossary
+hi/glossary
+id/glossary
+it/glossary
+ja/glossary
+ko/glossary
+ms/glossary
+nl/glossary
+pl/glossary
+pt-br/glossary
+pt-pt/glossary
+ru/glossary
+sv/glossary
+th/glossary
+vi/glossary
+zh-cn/glossary
+zh-tw/glossary
+
+# Exclude unused glossary sitemap files from deploy payload.
+sitemap-glossary-*.xml
+!sitemap-glossary-en.xml
+!sitemap-glossary-tr.xml
+glossary-sitemap-entries.xml
