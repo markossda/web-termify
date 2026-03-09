@@ -38,7 +38,7 @@
     <!-- Apple Smart App Banner -->
     <meta name="apple-itunes-app" content="app-id=6744872522, app-argument=https://protermify.com/pages/cybersecurity-english.html">
 
-                                                                                        <!-- Hreflang Tags -->
+                                                                                            <!-- Hreflang Tags -->
     <link rel="alternate" hreflang="en" href="https://protermify.com/pages/cybersecurity-english.html">
     <link rel="alternate" hreflang="en-GB" href="https://protermify.com/en-gb/pages/cybersecurity-english.html">
     <link rel="alternate" hreflang="tr" href="https://protermify.com/tr/pages/cybersecurity-english.html">
@@ -1081,7 +1081,7 @@
   select.value = current;
   select.addEventListener('change', function() {
     var target = this.value || 'en';
-    var nextPath = target === 'en' ? basePath : ('/' + target + (basePath === '/' ? '' : basePath));
+    var nextPath = target === 'en' ? basePath : ('/' + target + (basePath === '/' ? '/' : basePath));
     var query = window.location.search || '';
     var hash = window.location.hash || '';
     window.location.href = nextPath + query + hash;

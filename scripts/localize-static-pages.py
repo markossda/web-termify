@@ -1095,7 +1095,7 @@ def language_switcher_snippet() -> str:
   }}
   select.addEventListener('change', function() {{
     var target = this.value || 'en';
-    var nextPath = target === 'en' ? basePath : ('/' + target + (basePath === '/' ? '' : basePath));
+    var nextPath = target === 'en' ? basePath : ('/' + target + (basePath === '/' ? '/' : basePath));
     var query = window.location.search || '';
     var hash = window.location.hash || '';
     window.location.href = nextPath + query + hash;

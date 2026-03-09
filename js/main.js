@@ -136,6 +136,14 @@
       }
     }
 
+    // Generated glossary pages may carry "/" for breadcrumb Home links.
+    if (current !== "en") {
+      var homeCrumb = document.querySelector('.breadcrumb-list li:first-child a[href="/"]');
+      if (homeCrumb) {
+        homeCrumb.setAttribute("href", "/" + current + "/");
+      }
+    }
+
     select.value = current;
     if (current === "tr") {
       label.textContent = "Dil";
@@ -145,7 +153,7 @@
       var nextPath =
         target === "en"
           ? basePath
-          : "/" + target + (basePath === "/" ? "" : basePath);
+          : "/" + target + (basePath === "/" ? "/" : basePath);
       window.location.href =
         nextPath + (window.location.search || "") + (window.location.hash || "");
     });

@@ -30,7 +30,7 @@
     <meta name="twitter:image" content="https://protermify.com/images/termify_logo.png">
     <meta name="twitter:image:alt" content="Termify Logo">
 
-                                                                                        <!-- Hreflang Tags -->
+                                                                                            <!-- Hreflang Tags -->
     <link rel="alternate" hreflang="en" href="https://protermify.com/pages/legal/terms.html">
     <link rel="alternate" hreflang="en-GB" href="https://protermify.com/en-gb/pages/legal/terms.html">
     <link rel="alternate" hreflang="tr" href="https://protermify.com/tr/pages/legal/terms.html">
@@ -513,7 +513,7 @@
   select.value = current;
   select.addEventListener('change', function() {
     var target = this.value || 'en';
-    var nextPath = target === 'en' ? basePath : ('/' + target + (basePath === '/' ? '' : basePath));
+    var nextPath = target === 'en' ? basePath : ('/' + target + (basePath === '/' ? '/' : basePath));
     var query = window.location.search || '';
     var hash = window.location.hash || '';
     window.location.href = nextPath + query + hash;
